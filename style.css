@@ -1,0 +1,101 @@
+.body{
+    overflow-x: hidden;
+}
+.events{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* background-image: url(images/concert-crowd.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: rgb(250,81,223);; */
+    /* height: 90vh; */
+}
+#tickets{
+    border-color: #F300C6;
+    background-color: #F300C6;
+    width: 10vw;
+    height: 5vh;
+    border-radius: 10px;
+    margin-left: 30%;
+    margin-bottom:2% ;
+}
+img{
+    width: 98vw;
+    height: 93vh; 
+}
+.fiesta{
+    border: solid #F300C6 2px;
+    margin: 4% ;
+    height: 45vh;
+
+}
+.fiesta p{
+    margin-left: 4%;
+    margin-right: 4%;
+    /* text-align: center; */
+}
+.events img{
+    width: 30vw;
+    height: 40vh;
+    margin-left: 4%;
+
+}
+h3{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+@media (max-width:992px){
+    .fiesta{
+        height: 40vh;
+    }
+
+}
+@media (max-width:768px){
+    .fiesta{
+        height: 60vh;
+    }
+
+}
+@media (max-width:600px){
+    .fiesta{
+        height: 43vh;
+    }
+    .events{
+        display: grid;
+        grid-template-columns: repeat(1,3fr);
+    }
+img{
+        height: 40vh;
+    }
+    #tickets{
+        width: 20vw;
+        height: 7vh;
+        margin-left: 35%;
+    }
+    
+
+}
+
+.fiesta{
+    position: relative;
+    transform: translateY(50px);
+    /* opacity: 0; */
+    transition: all 2s ease;
+}
+.reveal.active{
+    transform: translateY(0px);
+    opacity: 1;
+}
+/* .fiesta { */
+    /* opacity: 0; */
+    /* transform: translateY(30px); */
+    /* transition: opacity 0.5s ease, transform 0.5s ease; */
+  /* } */
+  
+  /* .fiesta.reveal { */
+    /* opacity: 10; */
+    /* transform: translateY(0); */
+  /* } */
+  
