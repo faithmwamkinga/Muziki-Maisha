@@ -1,0 +1,298 @@
+*{
+margin: 0px;
+padding: 0px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+overflow: hidden;
+
+}
+.card{
+min-width: 400px;
+height: 500px;
+margin: 1px 10px;
+cursor: pointer;
+border: 1px solid white;
+overflow-y: hidden;
+background-color: darkorchid;
+overflow-x: scroll;
+box-shadow:5px 5px 20px black;
+
+
+}
+
+.card::-webkit-scrollbar{
+    display: none;
+  }  
+
+img{
+    height: 400px;
+    width: 400px;
+    border-radius: 3px;
+    align-items: center;
+    
+    
+}
+
+body{
+
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+      
+
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-gap: 5px;
+    width: 100%;
+    height: auto;
+    transition: transform 0.2s;
+    overflow: auto;
+    scroll-behavior: smooth;
+    overflow-x: scroll;
+    margin-top: 60px;
+    
+      
+}
+
+
+.container::-webkit-scrollbar{
+    display: none;
+}
+
+h1{
+    margin:10px ;
+    font-size: 20px;
+    color: azure;
+}
+.icon{
+    background-color: whitesmoke;
+    font-size: 50px;
+    outline: none;
+    padding:0px 20px ;
+    cursor: pointer;
+    border: whitesmoke;
+    
+}
+.icon:hover{
+    color: deeppink;
+}
+.left{
+width: 80px;
+height: 80px;
+
+}
+.right{
+    width: 80px;
+height: 80px;
+}
+
+@media only screen and (max-width:700px){
+    *{
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        overflow: hidden;
+        
+        }
+        .card{
+        min-width: 300px;
+        height: 400px;
+        margin: 1px 10px;
+        cursor: pointer;
+        border: 1px solid white;
+        overflow-y: hidden;
+        background-color: darkorchid;
+        overflow-x: scroll;
+        box-shadow:5px 5px 20px black;
+        
+        
+        }
+        
+        .card::-webkit-scrollbar{
+            display: none;
+          }  
+        
+        img{
+            height: 300px;
+            width: 300px;
+            border-radius: 3px;
+            align-items: center;
+            
+            
+        }
+        
+        body{
+        
+            justify-content: center;
+            height: 100vh;
+            align-items: center;
+              
+        
+        }
+        .container{
+            display: grid;
+            grid-template-columns: repeat(10,1fr);
+            grid-gap: 5px;
+            width: 100%;
+            height: auto;
+            transition: transform 0.2s;
+            overflow: auto;
+            scroll-behavior: smooth;
+            overflow-x: scroll;
+            margin-top: 60px;
+            
+              
+        }
+        
+        
+        .container::-webkit-scrollbar{
+            display: none;
+        }
+        
+        h1{
+            margin:10px ;
+            font-size: 20px;
+            color: azure;
+        }
+        .icon{
+            background-color: whitesmoke;
+            font-size: 50px;
+            outline: none;
+            padding:0px 20px ;
+            cursor: pointer;
+            border: whitesmoke;
+            
+        }
+        .icon:hover{
+            color: deeppink;
+        }
+        .left{
+        width: 80px;
+        height: 80px;
+        
+        }
+        .right{
+            width: 80px;
+        height: 80px;
+        }
+
+
+
+
+
+}
+@media only screen and (max-width:390px){
+
+        *{
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            overflow: hidden;
+            
+            }
+            .card{
+            min-width: 200px;
+            height: 300px;
+            margin: 1px 10px;
+            cursor: pointer;
+            border: 1px solid white;
+            overflow-y: hidden;
+            background-color: darkorchid;
+            overflow-x: scroll;
+            box-shadow:5px 5px 20px black;
+            
+            
+            }
+            
+            .card::-webkit-scrollbar{
+                display: none;
+              }  
+            
+            img{
+                height: 200px;
+                width: 200px;
+                border-radius: 3px;
+                align-items: center;
+                
+                
+            }
+            
+            body{
+            
+                justify-content: center;
+                height: 100vh;
+                align-items: center;
+                  
+            
+            }
+            .container{
+                display: grid;
+                grid-template-columns: repeat(10,1fr);
+                grid-gap: 5px;
+                width: 100%;
+                height: auto;
+                transition: transform 0.2s;
+                overflow: auto;
+                scroll-behavior: smooth;
+                overflow-x: scroll;
+                margin-top: 90px;
+                
+                  
+            }
+            
+            
+            .container::-webkit-scrollbar{
+                display: none;
+            }
+            
+            h1{
+                margin:10px ;
+                font-size: 20px;
+                color: azure;
+            }
+            .icon{
+                background-color: whitesmoke;
+                font-size: 50px;
+                outline: none;
+                padding:0px 20px ;
+                cursor: pointer;
+                border: whitesmoke;
+                
+            }
+            .icon:hover{
+                color: deeppink;
+            }
+            .left{
+            width: 80px;
+            height: 80px;
+            
+            }
+            .right{
+                width: 80px;
+            height: 80px;
+            }
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
