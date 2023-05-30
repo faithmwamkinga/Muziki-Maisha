@@ -1,0 +1,56 @@
+body{
+  overflow-x: hidden;
+  overflow-x: scroll;
+}
+#video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  #background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  .lyrics {
+    font-size: 36px;
+    color: black;
+    text-align: center;
+    margin-top: 50px;
+    animation-name: colorChange;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  @keyframes colorChange {
+    0% {
+      color: white;
+    }
+    25% {
+      color: red;
+    }
+    50% {
+      color:yellow;
+    }
+    75% {
+      color:orange;
+    }
+    100% {
+      color:white;
+    }
+  }
+  .content{
+    z-index: 1;
+  }
+
+  
